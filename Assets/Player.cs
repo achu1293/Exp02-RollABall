@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Player : MonoBehaviour
 {
-   
-     public float xforce=5.0f,yforce=200.0f,zforce=5.0f;
+    public float xforce=5.0f,yforce=200.0f,zforce=5.0f;
     
     // Start is called before the first frame update
     void Start()
